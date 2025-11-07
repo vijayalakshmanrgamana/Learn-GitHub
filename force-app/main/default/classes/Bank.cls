@@ -15,6 +15,7 @@ public class Bank {
             BKST.Name = 'Bank Bank Statement :'+i;
             BKST.Bank__c = bn.id;
             bankSTlist.add(BKST);
+                System.debug(bankSTlist);
         }
         }
         insert bankSTlist;
